@@ -76,6 +76,7 @@ body{
 .header-flex,
 .portfolio-list{
     display: flex;
+   
 }
                     /* ====== END COMBINED ALL SECTION======*/
 
@@ -84,6 +85,7 @@ body{
 .page-header{
     border-bottom: 1px solid var(--color-header-bottom);
 }    
+
 
 .container{  
     margin-left: auto;
@@ -95,6 +97,7 @@ body{
 
 .site-nav{
     display: flex;
+     align-items: center;
 }
 
 .site-list{
@@ -106,6 +109,7 @@ body{
 } 
 .nav-list-item{
     margin-right: 50px;
+    
 }
 .nav-list-item:last-child{
     margin-right: 0;
@@ -127,11 +131,12 @@ body{
     line-height: 1.19;
 }
 
+
+
 .nav-list-item .link,
 .list-item .contacts{
-    display: flex;
-    justify-content: center;
     color: var(--title-black-color);
+    position: relative;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -146,14 +151,15 @@ body{
     color:var(--accent-text-color);
 }
 
+
 .nav-list-item .link.current{ 
     color: var(--accent-text-color); 
 }
 
 .site-list-contacts{
     display: flex;
+    align-items: center;
     margin-left: auto;
-    
 }
 
 .icon-smartphone,
@@ -162,7 +168,6 @@ body{
      height: 16px;
     margin-right: 10px;
     fill: currentColor;
-    
 }
 
 
@@ -172,7 +177,8 @@ body{
     align-items: center;
     color: var(--main-text-color); 
     
-} 
+}
+
 .site-list-contacts .list-item{
     margin-right: 50px;
 }
@@ -538,20 +544,21 @@ margin-bottom: 50px;
 }
 
 .social-section{
-    padding-top: 12px;
     width: 205px;
     margin-left:70px;
+    align-items: baseline;
   
 }
 
 .social-title{
+    text-transform: uppercase;
+    margin-bottom: 20px;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
     color: var(--primary-white-color);
-    margin-bottom: 20px;
+  
 }
 
 .social-footer-list{
@@ -650,6 +657,7 @@ margin-bottom: 50px;
 .portfolio-link{
     display: block;
 }
+
 
 .portfolio-link:hover,
 .portfolio-link:focus{
